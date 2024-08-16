@@ -1,0 +1,27 @@
+header {
+    font-size: 32px;
+    color:#1100ff;
+    background: pink;
+    padding: 30px;
+}
+body{
+    background: black;
+    color: white;
+    border-bottom: solid 3px white;
+    margin: 100px;
+}
+ .seletor{
+    display:flex;
+    overflow-x: auto;
+    gap: 20px;
+
+ }
+ img{
+    height: 200px;
+ }
+ .seletor img{
+    opacity: 0.5;
+ }
+.seletor img:hover{
+    opacity: 1.0;
+}
